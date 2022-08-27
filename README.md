@@ -26,8 +26,7 @@ site/
     │   ├── themes/
     │   └── uploads/
     └── wp/               # WordPress core
-
-    ```
+```
 
 ## Status
 This repository has been tested and successfully deployed with Clever Cloud. We will keep adding features and updating the project to fit our customers' needs.
