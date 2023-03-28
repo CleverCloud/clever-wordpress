@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "app_id": "app_a8e2e085-2cbb-411c-92a8-47aa5254580c",
+      "org_id": "orga_4aceb133-7385-401f-8de5-c3598763090a",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_a8e2e085-2cbb-411c-92a8-47aa5254580c.git",
+      "name": "Request sender for bug triggering",
+      "alias": "Request-sender-for-bug-triggering"
+    },
+    {
+      "app_id": "app_050859a5-c6b4-4e80-ba96-6899ea6c9958",
+      "org_id": "orga_4aceb133-7385-401f-8de5-c3598763090a",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_050859a5-c6b4-4e80-ba96-6899ea6c9958.git",
+      "name": "Test bug triggering - Valwin Product API",
+      "alias": "Test-bug-triggering-Valwin-Product-API"
+    },
+    {
+      "app_id": "app_87687b26-0015-49da-9689-a70caa125408",
+      "org_id": "orga_6da271bb-0caf-42de-b85b-7b92db11c150",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_87687b26-0015-49da-9689-a70caa125408.git",
+      "name": "visamundi",
+      "alias": "visamundi"
+    }
+  ]
+}

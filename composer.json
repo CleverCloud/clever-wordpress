@@ -40,7 +40,7 @@
     "wp-cli/wp-cli-bundle": "2.6.*",
     "humanmade/s3-uploads": "~2.2",
     "wpackagist-plugin/mailgun": "1.7.9",
-    "wpackagist-plugin/all-in-one-wp-migration": "7.63",
+    "wpackagist-plugin/all-in-one-wp-migration": "7.69",
     "wpackagist-theme/twentytwentytwo":"^1.2"
   },
   "require-dev": {
