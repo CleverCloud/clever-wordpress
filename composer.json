@@ -45,7 +45,8 @@
     "wp-cli/wp-cli-bundle": "2.6.*",
     "humanmade/s3-uploads": "~3.0",
     "wpackagist-plugin/all-in-one-wp-migration": "7.*",
-    "wpackagist-theme/twentytwentytwo":"^1.2"
+    "wpackagist-theme/twentytwentytwo":"^1.2",
+    "wpackagist-theme/twentytwentythree":"1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
