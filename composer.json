@@ -46,6 +46,7 @@
     "humanmade/s3-uploads": "~3.0",
     "wpackagist-plugin/all-in-one-wp-migration": "7.*",
     "wpackagist-theme/twentytwentytwo":"^1.2",
+    "wpackagist-plugin/jetpack":"12.*",
     "wpackagist-theme/twentytwentythree":"1.1"
   },
   "require-dev": {
