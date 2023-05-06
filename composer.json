@@ -49,7 +49,8 @@
     "wpackagist-plugin/jetpack":"12.*",
     "wpackagist-plugin/jetpack-boost":"1.8.*",
     "wpackagist-plugin/akismet":"5.*",
-    "wpackagist-theme/twentytwentythree":"1.1"
+    "wpackagist-theme/twentytwentythree":"1.1",
+    "wpackagist-plugin/hide-my-wp":"5.0.*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
