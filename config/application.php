@@ -107,7 +107,7 @@ define('S3_UPLOADS_ENDPOINT', 'https://'.env('CELLAR_ADDON_HOST'));
 /**
  * Debugging Settings
  */
-Config::define('WP_DEBUG_DISPLAY', false);
+Config::define('WP_DEBUG_DISPLAY', env('WP_DEBUG') ?: false);
 Config::define('SCRIPT_DEBUG', false);
 ini_set('display_errors', '0');
 
