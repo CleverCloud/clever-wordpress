@@ -30,17 +30,13 @@
     }
   ],
   "require": {
-    "php": ">=8.0",
-    "composer/installers": "^2.2",
-    "vlucas/phpdotenv": "^5.5",
-    "oscarotero/env": "^2.1",
-    "roots/bedrock-autoloader": "^1.0",
-    "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": "6.4.3",
-    "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.1.0",
+    "php": ">=7.1",
+    "composer/installers": "^1.7",
+    "vlucas/phpdotenv": "^3.4.0",
+    "oscarotero/env": "^1.2.0",
+    "roots/wordpress": "6.4.*",
     "wp-cli/wp-cli-bundle": "2.6.*",
-    "humanmade/s3-uploads": "3.*",
+    "humanmade/s3-uploads": "~2.2",
     "wpackagist-plugin/all-in-one-video-gallery":"3.6.0",
     "wpackagist-plugin/mailgun": "1.7.9",
     "wpackagist-theme/twentytwentytwo":"^1.2",
@@ -51,8 +47,8 @@
     "wpackagist-theme/raft":"1.1.1"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.7.1",
-    "roave/security-advisories": "dev-latest"
+    "squizlabs/php_codesniffer": "^3.4.2",
+    "roave/security-advisories": "dev-master"
   },
   "config": {
     "optimize-autoloader": true,
