@@ -42,7 +42,7 @@
     "wpackagist-plugin/mailgun": "1.7.9",
     "wpackagist-plugin/leadin": "*",
     "wpackagist-theme/twentytwentyfour": "^1.0"
-    "wpackagist-theme/neve-fse":"1.0.6",
+    "wpackagist-theme/neve-fse":"1.0.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
