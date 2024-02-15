@@ -2,7 +2,7 @@
   "name": "roots/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
@@ -26,37 +26,34 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://wpackagist.org"
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "composer/installers": "^1.7",
-    "vlucas/phpdotenv": "^3.4.0",
-    "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "6.4.*",
-    "wp-cli/wp-cli-bundle": "2.6.*",
-    "humanmade/s3-uploads": "~2.2",
-    "wpackagist-plugin/all-in-one-video-gallery":"3.6.0",
-    "wpackagist-plugin/mailgun": "1.7.9",
-    "wpackagist-theme/twentytwentytwo":"^1.2",
+    "php": ">=8.0",
+    "composer/installers": "^2.2",
+    "vlucas/phpdotenv": "^5.5",
+    "oscarotero/env": "^2.1",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/bedrock-disallow-indexing": "^2.0",
+    "roots/wordpress": "6.4.3",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-plugin/leadin": "*",
-    "wpackagist-theme/twentytwentytwo":"^1.2",
+    "wpackagist-theme/twentytwentyfour": "^1.0"
     "wpackagist-theme/neve-fse":"1.0.6",
-    "wpackagist-theme/twentytwentyfour":"1.0",
-    "wpackagist-theme/raft":"1.1.1"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.4.2",
-    "roave/security-advisories": "dev-master"
+    "squizlabs/php_codesniffer": "^3.7.1",
+    "roave/security-advisories": "dev-latest"
   },
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
-    "sort-packages": true,
     "allow-plugins": {
-    "composer/installers":true,
-    "roots/wordpress-core-installer":true
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
     }
   },
   "minimum-stability": "dev",
@@ -70,9 +67,6 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
-    "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
-    ],
     "test": [
       "phpcs"
     ]
