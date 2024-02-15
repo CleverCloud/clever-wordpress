@@ -38,6 +38,8 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wp-cli/wp-cli-bundle": "2.6.*",
+  "guzzlehttp/guzzle": "^7.0",
+  "guzzlehttp/psr7": "^2.0"
     "humanmade/s3-uploads": "~2.2",
     "wpackagist-plugin/mailgun": "1.7.9",
     "wpackagist-plugin/leadin": "*",
