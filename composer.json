@@ -41,7 +41,8 @@
     "humanmade/s3-uploads": "~2.2",
     "wpackagist-plugin/mailgun": "1.7.9",
     "wpackagist-plugin/leadin": "*",
-    "wpackagist-theme/twentytwentyfour": "^1.0"
+    "wpackagist-theme/twentytwentytwo":"^1.2",
+    "wpackagist-theme/twentytwentyfour": "^1.0",
     "wpackagist-theme/neve-fse":"1.0.6"
   },
   "require-dev": {
