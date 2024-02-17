@@ -59,7 +59,8 @@
     "wpackagist-theme/twentytwentyfour": "^1.0",
     "wpackagist-theme/neve-fse":"1.0.6",
     "wpackagist-plugin/elementor":"3.19.*",
-    "custom/divi":"*"
+    "custom/divi":"*",
+    "divi/divi":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
