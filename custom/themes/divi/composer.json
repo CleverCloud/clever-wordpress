@@ -1,0 +1,10 @@
+{
+    "name": "divi/divi",
+    "description": "Divi Plugin",
+    "version": "1.0",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0",
+        "johnpbloch/wordpress-core": "5.4.2"
+    }
+}
