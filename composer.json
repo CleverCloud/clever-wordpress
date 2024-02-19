@@ -61,7 +61,8 @@
     "wpackagist-plugin/elementor":"3.19.*",
     "custom/divi":"*",
     "divi/divi":"*",
-    "wpackagist-plugin/advanced-csv-importer":"0.1.6"
+    "wpackagist-plugin/advanced-csv-importer":"0.1.6",
+    "custom/analyticsGA":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
