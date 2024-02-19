@@ -62,7 +62,7 @@
     "custom/divi":"*",
     "divi/divi":"*",
     "wpackagist-plugin/advanced-csv-importer":"0.1.6",
-    "custom/analyticsGA":"*"
+    "custom/analytics":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
