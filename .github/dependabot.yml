@@ -1,0 +1,16 @@
+# Basic `dependabot.yml` file with
+# minimum configuration for two package managers
+
+version: 2
+updates:
+  # Enable version updates for composer
+  - package-ecosystem: "composer"
+    # Look for `composer.json` and `lock` files in the `root` directory
+    directory: "/"
+    # Check the composer registry for updates every day (weekdays)
+    schedule:
+      interval: "daily"
+
+    # Check for updates once a week
+    schedule:
+      interval: "weekly"
