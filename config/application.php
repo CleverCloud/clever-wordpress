@@ -9,6 +9,7 @@
  */
 
 use Roots\WPConfig\Config;
+use function Env\env;
 
 /** @var string Directory containing all of the site's files */
 $root_dir = dirname(__DIR__);
@@ -19,7 +20,7 @@ $webroot_dir = $root_dir . '/web';
 /**
  * Expose global env() function from oscarotero/env
  */
-Env::init();
+
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
